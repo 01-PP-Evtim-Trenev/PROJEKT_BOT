@@ -29,10 +29,10 @@ document.addEventListener("DOMContentLoaded", () => {
     ["hi", "hey", "hello", "good morning", "good afternoon"],      //1
     ["what are you doing", "what is going on", "what is up"],      //2
     ["how old are you"],					//3
-    ["who are you", "are you human", "are you bot", "are you human or bot"];   //4
+    ["who are you", "are you human", "are you bot", "are you human or bot"],   //4
     
     
-   
+  ] 
   
    
   // Possible responses corresponding to triggers
@@ -95,4 +95,25 @@ document.addEventListener("DOMContentLoaded", () => {
    
     //update  DOM
     addChatEntry (input, product);
-  }
+  } 
+  function addChatEntry(input, product) {
+    const messagesContainer = document.getElementById("messages");
+    
+    let userDiv = document.createElement("div");
+    userDiv.id = "user";
+    userDiv.className = "user response";
+    userDiv.innerHTML = `${input}`;
+    messagesContainer.appendChild(userDiv);
+   
+    let botDiv = document.createElement("div");
+    let botText = document.createElement("span");
+    botDiv.id = "bot";
+    botDiv.className = "bot response";
+    botText.innerText = "Typing...";
+    botDiv.appendChild(botText);
+    messagesContainer.appendChild(botDiv);
+   
+   
+    setTimeout(() => {
+      botText.innerText = `${product}`;
+    }, 2000); }
