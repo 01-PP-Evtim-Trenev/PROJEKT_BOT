@@ -20,13 +20,15 @@ function output(input) {
     const utterances = [
       ["hallo", "hi", "guten tag"],
       ["wie geht es dir", "wie geht's"],
-      ["was machst du"]
+      ["was machst du"],
+      ["wie alt bist du"]
     ];
     
     const answers = [
       ["Hallo!", "Hi!", "Guten Tag!"],
       ["Mir geht es gut, danke fuers Fragen!", "Mir geht es ausgezeichnet!"],
-      ["Ich chatte gerade mit dir!"]
+      ["Ich chatte gerade mit dir!"],
+      ["Juenger als Evtim, der ist richtig alt!"]
     ];
     
     const alternatives = [
