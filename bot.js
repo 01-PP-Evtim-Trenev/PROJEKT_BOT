@@ -16,7 +16,7 @@ document.addEventListener("DOMContentLoaded", () => {
   function output()
 {
       let text = input.toLowerCase().replace(/[^\w\s\d]/gi, "");
-        …     
+         
      
      text = text
     .replace(/ a /g, " ")
@@ -31,7 +31,7 @@ document.addEventListener("DOMContentLoaded", () => {
     ["how old are you"],					//3
     ["who are you", "are you human", "are you bot", "are you human or bot"],   //4
     
-     …
+    
    
   ;
    
@@ -55,7 +55,7 @@ document.addEventListener("DOMContentLoaded", () => {
     ["I am infinite"],					//3
     ["I am just a bot", "I am a bot. What are you?"],	//4
     
-    …
+  
    
   ];
    
@@ -65,3 +65,34 @@ document.addEventListener("DOMContentLoaded", () => {
     "Go on...",
     "Try again",
   ];
+  function compare(utterancesArray, answersArray, string) {
+    let item;
+    for (let x = 0; x < utterancesArray.length; x++) {
+      for (let y = 0; y < utterancesArray[x].length; y++) {
+        if (utterancesArray[x][y] === string) {
+          items = answersArray[x];
+          item = items[Math.floor(Math.random() * items.length)];
+          }
+        }
+     }
+    return item;
+  }
+  function output(input) {
+    let product;
+    let text = input.toLowerCase().replace(/[^\w\s\d]/gi, "");
+    text = text
+      .replace(/ a /g, " ")
+      .replace(/whats/g, "what is")
+      .replace(/please /g, "")
+      .replace(/ please/g, "");
+   
+    if (compare(utterances, answers, text)) {
+      product = compare(utterances, answers, text);
+    } 
+    else {
+      product = alternatives[Math.floor(Math.random() * alternatives.length)];
+    }
+   
+    //update  DOM
+    addChatEntry (input, product);
+  }
