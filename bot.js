@@ -32,7 +32,8 @@ function output(input) {
     const alternatives = [
       "Entschuldigung, ich habe das nicht verstanden.",
       "Koenntest du das bitte wiederholen?",
-      "Das habe ich nicht erwartet."
+      "Das habe ich nicht erwartet.",
+      "Frag bitte Evtim, ich weiss das leider nicht."
     ];
 
 
