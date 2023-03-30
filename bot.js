@@ -26,6 +26,7 @@ function output(input) {
       ["bist du ein mann"],
       ["bist du eine frau"],
       ["kennst du evtim"]
+      ["kennst du peter"]
     ];
     
     const answers = [
@@ -37,6 +38,7 @@ function output(input) {
       ["ich bin alles was du willst"],
       ["stell dir einfach vor was ich bin"],
       ["na klar, evtim ist mein lover"]
+      ["na klar, peter ist mein lover"]
     ];
     
     const alternatives = [
