@@ -17,6 +17,25 @@ function output(input) {
     .replace(/ please/g, "")
     .replace(/r u/g, "are you");
 
+    const utterances = [
+      ["hallo", "hi", "guten tag"],
+      ["wie geht es dir", "wie geht's"],
+      ["was machst du"]
+    ];
+    
+    const answers = [
+      ["Hallo!", "Hi!", "Guten Tag!"],
+      ["Mir geht es gut, danke fürs Fragen!", "Mir geht es ausgezeichnet!"],
+      ["Ich chatte gerade mit dir!"]
+    ];
+    
+    const alternatives = [
+      "Entschuldigung, ich habe das nicht verstanden.",
+      "Könntest du das bitte wiederholen?",
+      "Das habe ich nicht erwartet."
+    ];
+
+
   if (compare(utterances, answers, text)) {
     // Search for exact match in triggers
     product = compare(utterances, answers, text);
