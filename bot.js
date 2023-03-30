@@ -21,14 +21,22 @@ function output(input) {
       ["hallo", "hi", "guten tag"],
       ["wie geht es dir", "wie geht's"],
       ["was machst du"],
-      ["wie alt bist du"]
+      ["wie alt bist du"],
+      ["woher kommst du"],
+      ["bist du ein mann"],
+      ["bist du eine frau"],
+      ["kennst du evtim"]
     ];
     
     const answers = [
       ["Hallo!", "Hi!", "Guten Tag!"],
       ["Mir geht es gut, danke fuers Fragen!", "Mir geht es ausgezeichnet!"],
       ["Ich chatte gerade mit dir!"],
-      ["Juenger als Evtim, der ist richtig alt!"]
+      ["juenger als Evtim, der ist richtig alt!"],
+      ["das geht dich nichts an, neugierig oder was"],
+      ["ich bin alles was du willst"],
+      ["stell dir einfach vor was ich bin"],
+      ["na klar, evtim ist mein lover"]
     ];
     
     const alternatives = [
