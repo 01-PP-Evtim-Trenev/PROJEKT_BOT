@@ -18,6 +18,7 @@ function output(input) {
     .replace(/r u/g, "are you");
 
     const utterances = [
+<<<<<<< HEAD
       ["hello", "hi", "good evening"],
       ["how are you", "how are you doing"],
       ["what do you do"],
@@ -37,6 +38,29 @@ function output(input) {
       ["I am everything you want"],
       ["just imagine what i am"],
       ["of course, evtim is my lover"]
+=======
+      ["hallo", "hi", "guten tag"],
+      ["wie geht es dir", "wie geht's"],
+      ["was machst du"],
+      ["wie alt bist du"],
+      ["woher kommst du"],
+      ["bist du ein mann"],
+      ["bist du eine frau"],
+      ["kennst du evtim"]
+      ["kennst du peter"]
+    ];
+    
+    const answers = [
+      ["Hallo!", "Hi!", "Guten Tag!"],
+      ["Mir geht es gut, danke fuers Fragen!", "Mir geht es ausgezeichnet!"],
+      ["Ich chatte gerade mit dir!"],
+      ["juenger als Evtim, der ist richtig alt!"],
+      ["das geht dich nichts an, neugierig oder was"],
+      ["ich bin alles was du willst"],
+      ["stell dir einfach vor was ich bin"],
+      ["na klar, evtim ist mein lover"]
+      ["na klar, peter ist mein lover"]
+>>>>>>> f7429cc1ed1cad70a15169213f7badba2520aefe
     ];
     
     const alternatives = [
