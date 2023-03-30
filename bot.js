@@ -18,32 +18,32 @@ function output(input) {
     .replace(/r u/g, "are you");
 
     const utterances = [
-      ["hallo", "hi", "guten tag"],
-      ["wie geht es dir", "wie geht's"],
-      ["was machst du"],
-      ["wie alt bist du"],
-      ["woher kommst du"],
-      ["bist du ein mann"],
-      ["bist du eine frau"],
-      ["kennst du evtim"]
+      ["hello", "hi", "good evening"],
+      ["how are you", "how are you doing"],
+      ["what do you do"],
+      ["how old are you"],
+      ["where are you from"],
+      ["are you a man"],
+      ["are you a woman"],
+      ["do you know evtim"]
     ];
     
     const answers = [
-      ["Hallo!", "Hi!", "Guten Tag!"],
-      ["Mir geht es gut, danke fuers Fragen!", "Mir geht es ausgezeichnet!"],
-      ["Ich chatte gerade mit dir!"],
-      ["juenger als Evtim, der ist richtig alt!"],
-      ["das geht dich nichts an, neugierig oder was"],
-      ["ich bin alles was du willst"],
-      ["stell dir einfach vor was ich bin"],
-      ["na klar, evtim ist mein lover"]
+      ["Hello!", "Hi!", "Good evening!"],
+      ["fine, thanks for asking!", "I am doing excellent!"],
+      ["I am chatting with you right now!"],
+      ["younger than Evtim, he is really old!"],
+      ["it's none of your business, curious or what"],
+      ["I am everything you want"],
+      ["just imagine what i am"],
+      ["of course, evtim is my lover"]
     ];
     
     const alternatives = [
-      "Entschuldigung, ich habe das nicht verstanden.",
-      "Koenntest du das bitte wiederholen?",
-      "Das habe ich nicht erwartet.",
-      "Frag bitte Evtim, ich weiss das leider nicht."
+      "Sorry, I did not understand.",
+      "Could you please repeat that?",
+      "I did not expect that.",
+      "Please ask Evtim, unfortunately I do not know that."
     ];
 
 
