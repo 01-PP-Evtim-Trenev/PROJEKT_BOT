@@ -29,11 +29,11 @@ document.addEventListener("DOMContentLoaded", () => {
     ["hi", "hey", "hello", "good morning", "good afternoon"],      //1
     ["what are you doing", "what is going on", "what is up"],      //2
     ["how old are you"],					//3
-    ["who are you", "are you human", "are you bot", "are you human or bot"],   //4
+    ["who are you", "are you human", "are you bot", "are you human or bot"];   //4
     
     
    
-  ;
+  
    
   // Possible responses corresponding to triggers
    
