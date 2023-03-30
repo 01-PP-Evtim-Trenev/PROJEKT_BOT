@@ -25,7 +25,7 @@ function output(input) {
     
     const answers = [
       ["Hallo!", "Hi!", "Guten Tag!"],
-      ["Mir geht es gut, danke fürs Fragen!", "Mir geht es ausgezeichnet!"],
+      ["Mir geht es gut, danke fuers Fragen!", "Mir geht es ausgezeichnet!"],
       ["Ich chatte gerade mit dir!"]
     ];
     
